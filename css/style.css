@@ -8,6 +8,11 @@ h1 {
     font-weight: bold;
 }
 
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .container-fluid {
     padding: 7% 15%;
 }
@@ -88,6 +93,11 @@ h1 {
     color: #ff4c68;
 }
 
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 
 /* testimonial section */
 
@@ -97,8 +107,49 @@ h1 {
     margin: 20px;
 }
 
+.test-title {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #fff;
+}
+
 #testimonials {
     padding: 7% 15%;
+    background-color: #ef8172;
+}
+
+
+/* press section */
+
+.company-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.img-section {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+
+/* pricing section */
+
+.section-heading {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.price-p {
+    font-size: 1.2rem;
+}
+
+.price-text {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card-header {
     background-color: #ef8172;
 }
 
