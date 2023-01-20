@@ -13,6 +13,10 @@ h3 {
     font-weight: bold;
 }
 
+p {
+    font-size: 1.5rem;
+}
+
 .container-fluid {
     padding: 7% 15%;
 }
@@ -82,6 +86,12 @@ h3 {
     padding: 15% 15%;
 }
 
+.feature-p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: gray;
+}
+
 .fa-solid,
 .fa-regular {
     color: #ef8172;
@@ -94,7 +104,7 @@ h3 {
 }
 
 .feature-title {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 
@@ -135,13 +145,23 @@ h3 {
 
 /* pricing section */
 
+#pricing {
+    padding: 50px;
+}
+
 .section-heading {
     font-size: 2.5rem;
     line-height: 1.5;
 }
 
 .price-p {
+    font-size: 1.4rem;
+    color: gray;
+}
+
+.prices {
     font-size: 1.2rem;
+    color: gray;
 }
 
 .price-text {
@@ -152,6 +172,46 @@ h3 {
 .card-header {
     background-color: #ef8172;
 }
+
+
+/* cta section */
+
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+}
+
+.cta-title {
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+/* footer section */
+
+
+/* Footer section */
+
+#footer {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fab {
+    padding: 10px;
+    color: #fff;
+}
+
+
+/* .fab:hover {
+    color: #ef8172;
+} */
 
 
 /* media queries */
