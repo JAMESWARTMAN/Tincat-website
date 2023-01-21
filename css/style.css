@@ -13,6 +13,10 @@ h3 {
     font-weight: bold;
 }
 
+h4 {
+    font-size: 1.9rem;
+}
+
 p {
     font-size: 1.5rem;
 }
@@ -83,7 +87,10 @@ p {
 /* Features section */
 
 #features {
-    padding: 15% 15%;
+    padding: 12% 15%;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
 }
 
 .feature-p {
@@ -149,6 +156,10 @@ p {
     padding: 50px;
 }
 
+.pricing-col {
+    padding: 3% 1.7%;
+}
+
 .section-heading {
     font-size: 2.5rem;
     line-height: 1.5;
@@ -177,7 +188,7 @@ p {
 /* cta section */
 
 #cta {
-    padding: 7% 15%;
+    padding: 4% 12%;
     background-color: #ff4c68;
 }
 
@@ -208,6 +219,19 @@ p {
     color: #fff;
 }
 
+.footer-img {
+    width: 75%;
+    border-radius: 10%;
+}
+
+.link-p {
+    line-height: 1.5;
+}
+
+.list-unstyled {
+    font-size: 1.2rem;
+}
+
 
 /* .fab:hover {
     color: #ef8172;
@@ -225,5 +249,17 @@ p {
     }
     .title-container {
         text-align: center;
+    }
+}
+
+@media(max-width:770px) {
+    .list-unstyled {
+        font-size: 1.3rem;
+    }
+    h4 {
+        font-size: 2.1rem;
+    }
+    .media-link {
+        font-size: 1.3rem;
     }
 }
