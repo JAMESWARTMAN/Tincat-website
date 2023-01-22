@@ -32,16 +32,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact-us">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#pricing">Pricing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Download</a>
+                                <a class="nav-link" href="#cta">Download</a>
                             </li>
 
                         </ul>
@@ -53,7 +53,7 @@
             <!-- title -->
 
             <div class="row title-container">
-                <div class="col-lg-6">
+                <div class="col-lg-6 title-box">
                     <h1 class="main-heading">Meet new and interesting cats nearby.</h1>
                     <button type="button" class="btn btn-lg btn-dark download-btn"><i class="fa-brands fa-apple"></i></i>Download</button>
                     <button type="button" class="btn btn-lg btn-outline-light download-btn"><i class="fa-brands fa-google-play"></i>Download</button>
@@ -222,90 +222,82 @@
         </div>
     </section>
 
+    <section id="contact-us">
 
-
-    <div class="container-fluid px-5 my-5">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="card border-0 rounded-3 shadow-lg">
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <div class="h1 fw-light">Contact Form</div>
-                            <p class="mb-4 text-muted">Please contact us for more Information.</p>
-                        </div>
-
-                        <!-- * * * * * * * * * * * * * *
-                // * * SB Forms Contact Form * *
-                // * * * * * * * * * * * * * * *
-      
-                // This form is pre-integrated with SB Forms.
-                // To make this form functional, sign up at
-                // https://startbootstrap.com/solution/contact-forms
-                // to get an API token!
-                -->
-
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-
-                            <!-- Name Input -->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-                                <label for="name">Name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+        <div class="container-fluid px-5 my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 rounded-3 shadow-lg">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <div class="h1 fw-light">Contact Form</div>
+                                <p class="mb-4 text-muted">Please contact us for more Information.</p>
                             </div>
 
-                            <!-- Email Input -->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                                <label for="emailAddress">Email Address</label>
-                                <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
-                            </div>
 
-                            <!-- Message Input -->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
-                            </div>
+                            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
 
-                            <!-- Submit success message -->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    <p>To activate this form, sign up at</p>
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                <!-- Name Input -->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                                    <label for="name">Name</label>
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
                                 </div>
-                            </div>
 
-                            <!-- Submit error message -->
-                            <div class="d-none" id="submitErrorMessage">
-                                <div class="text-center text-danger mb-3">Error sending message!</div>
-                            </div>
+                                <!-- Email Input -->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                                    <label for="emailAddress">Email Address</label>
+                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                                </div>
 
-                            <!-- Submit button -->
-                            <div class="d-grid">
-                                <button class="btn btn-primary btn-lg btn-dark" id="submitButton" type="submit">Submit</button>
-                            </div>
-                        </form>
-                        <!-- End of contact form -->
+                                <!-- Message Input -->
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                                    <label for="message">Message</label>
+                                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                                </div>
 
+                                <!-- Submit success message -->
+                                <div class="d-none" id="submitSuccessMessage">
+                                    <div class="text-center mb-3">
+                                        <div class="fw-bolder">Form submission successful!</div>
+                                        <p>To activate this form, sign up at</p>
+                                        <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                    </div>
+                                </div>
+
+                                <!-- Submit error message -->
+                                <div class="d-none" id="submitErrorMessage">
+                                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                                </div>
+
+                                <!-- Submit button -->
+                                <div class="d-grid">
+                                    <button class="btn btn-primary btn-lg btn-dark" id="submitButton" type="submit">Submit</button>
+                                </div>
+                            </form>
+                            <!-- End of contact form -->
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- footer section -->
 
     <footer id="footer">
-        <div class="container-fluid">
+        <div class="container-fluid footer-container">
 
             <section class="py-5 bg-voilet text-white">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3">
                             <img src="img\little-plant-WHx8_Dq01IM-unsplash.jpg" alt="" class=" mb-4 footer-img">
-                            <p class="link-p">There are many variations of passages of Lorem Ipsum available, but the majo rity have suffered alteration</p>
+                            <p class="link-p">Help your cat find the love of their life with the best cat dating app on the market.</p>
 
                         </div>
                         <div class="col-md-3">

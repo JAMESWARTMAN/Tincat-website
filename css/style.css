@@ -50,7 +50,8 @@ p {
     transform: rotate(25deg);
     border-radius: 10%;
     position: absolute;
-    left: 60%;
+    left: 61.5%;
+    top: 20%;
 }
 
 .navbar {
@@ -66,11 +67,15 @@ p {
 
 .nav-item {
     padding: 0 18px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .nav-link {
     color: #fff;
+}
+
+.title-box {
+    margin-left: 15px;
 }
 
 
@@ -81,6 +86,10 @@ p {
 
 .download-btn {
     margin: 5% 3% 5% 0;
+}
+
+.fa-brands {
+    padding-right: 7px;
 }
 
 
@@ -188,7 +197,7 @@ p {
 /* cta section */
 
 #cta {
-    padding: 4% 12%;
+    padding: 7% 12%;
     background-color: #ff4c68;
 }
 
@@ -206,6 +215,10 @@ p {
 #footer {
     background-color: #ff4c68;
     color: #fff;
+}
+
+.footer-container {
+    padding: 2% 0;
 }
 
 .social-media {
@@ -232,6 +245,10 @@ p {
     font-size: 1.2rem;
 }
 
+.media-link {
+    font-size: 1.2rem;
+}
+
 
 /* .fab:hover {
     color: #ef8172;
@@ -250,6 +267,9 @@ p {
     .title-container {
         text-align: center;
     }
+    .title-box {
+        margin: 0;
+    }
 }
 
 @media(max-width:770px) {
@@ -261,5 +281,8 @@ p {
     }
     .media-link {
         font-size: 1.3rem;
+    }
+    .footer-img {
+        width: 60%
     }
 }
