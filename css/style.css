@@ -333,3 +333,27 @@ p {
         width: 60%
     }
 }
+
+@media(max-width:800px) {
+    .test-title {
+        /* padding-bottom: 100px;
+        padding-top: 100px; */
+        line-height: normal;
+        font-size: 2.5rem;
+    }
+    .test-img {
+        width: 33%;
+    }
+    #testimonials {
+        padding: 1% 5%;
+    }
+    .company-img {
+        width: 20%
+    }
+}
+
+@media(max-width: 688px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
